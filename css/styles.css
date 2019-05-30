@@ -1,0 +1,158 @@
+/*General*/
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.right-block ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Header*/
+header {
+    height: 40px;
+    padding: 10px;
+}
+
+/*Input*/
+.search {
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    float: left;
+}
+
+.search input {
+    padding: 5px;
+    width: 130px;
+    border-right: 6px solid black;
+    border-top: 1px solid black;
+    border-left: 6px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*Aside*/
+.right-block {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.right-block ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Jmbrotron*/
+
+.banner img {
+    width: 100%;
+    height: 200px;
+}
+
+/*Shop*/
+.products {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.products-name {
+    font-size: 30px;
+}
+
+/*Product*/
+.products product a {
+    position: absolute;
+    width: 173px; height: 300px;
+}
+
+.product {
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/*Contacts*/
+.contacts {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts-name {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.contact {
+    width: 40%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.schedule {
+    width: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*404*/
+
+.container_404{
+    margin: 120px 493.7px;
+    text-align: center
+}
+
+.container_404 h1 {
+    font-size: 60px;
+}
+
+.container_404 p {
+    float: left;
+    font-size: 20px;
+}
+
+.container_404 a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #FFF;
+    background-color: #FCC000;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+/*Footer*/
+
+.footer{
+	margin-top: 55px;
+    font-weight: bold;
+    text-decoration: none;
+	padding-bottom: 55px;;
+}
+
+@media( max-width: 320px){
+    .products{
+        width: 100%;
+    }
+    
+    .banner {
+        height: 0;
+        width: 0;
+    }
+    
+    .right-block ul li img:first-child{
+        height: 0;
+        width: 0;
+    }
+}
